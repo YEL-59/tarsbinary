@@ -183,9 +183,10 @@ header .social-icon li a {
 }
 /* end header */
 
-/* start nagivation */
+ 
+  /* start nagivation */
 .navbar-default {
-  /* background: rgb(16, 16, 16); */
+  background: rgb(16, 16, 16);
   
   border: none;
   box-shadow: none;
@@ -203,12 +204,13 @@ header .social-icon li a {
 }
 .navbar-default .navbar-nav li a {
   font-weight: normal;
-  font-size: 17px;
-  height: 50px;
+  font-size: 12px;
+  /* height: 50px; */
+  color: #f5fafd;
 }
 
 .navbar-default .navbar-nav > li > a.current {
-  color: #28a7e9;
+  color: #f5fafd;
 }
 
 .templatemo-nav {
@@ -226,6 +228,9 @@ header .social-icon li a {
 
 
 /* end navigation */
+.navbar-text{
+  color: white;
+}
 
 /* start home */
 #home {
@@ -267,16 +272,18 @@ width: 100%;
   border-color: transparent;
 }
 .element {
-  height: 60px;
+  height: 10px;
   font-size: 20px;
   font-weight: bold;
   color: white;
+  margin-left: 15px;
 }
 
 
 /* end home */
 
 /* start about */
+
 #about .media-heading-wrapper {
   padding-bottom: 5px;
 }
@@ -294,18 +301,23 @@ width: 100%;
 }
 #about .media-heading-wrapper h3 {
   font-size: 18px;
-  color: whitesmoke;
+  color: black;
   font-weight: bold;
-  padding-top: 20px;
-  padding-left: 52px;
+  
 }
+.d-flex{
+  display: flex;
+  align-items: center;
 
+  margin-bottom: 10px;
+}
 #about .box-padding {
   padding-bottom: 30px;
 }
 /* end about */
 
 /* start team */
+
 #team .team-wrapper {
   background: #404040;
   padding-bottom: 10px;
@@ -399,6 +411,7 @@ width: 100%;
 .portfolio-thumb,
 .portfolio-overlay {
   max-width: 450px;
+ 
 }
 #portfolio .portfolio-thumb {
   overflow: hidden;
@@ -414,6 +427,7 @@ width: 100%;
   width: 100%;
   height: 100%;
   opacity: 0;
+  border: 2px solid black;
   position: absolute;
   padding: 20px 10px 20px 20px;
   margin-left: auto;
@@ -440,7 +454,7 @@ width: 100%;
 
 /* start contact */
 #contact {
-  background: #333333;
+  background: #100f0f;
 }
 #contact .form-control {
   background: transparent;
@@ -470,11 +484,16 @@ width: 100%;
   border-bottom: 1px solid #505050;
   padding-top: 30px;
 }
-#contact address .address-title {
-  font-weight: bold;
-  font-size: 20px;
-  padding-bottom: 10px;
+.text-white{
+  color: white;
+  font-size: 12px;
 }
+/* #contact address .address-title  {
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 10px;
+ 
+} */
 #contact address span {
   display: block;
   padding-bottom: 30px;
@@ -493,11 +512,14 @@ width: 100%;
 
 /* start copyright */
 #copyright {
-  background: black;
-  padding: 20px;
+  border-top: 1px solid white;
+  background: rgb(16, 15, 15);
+  padding: 2px;
 }
 #copyright p {
   font-weight: 400;
+  color: rgb(107, 102, 102);
+  padding: 1px;
 }
 /* end copyright */
 
@@ -517,6 +539,7 @@ width: 100%;
 }
 .social-icon li a {
   border: 1px solid #fff;
+  background-color: whitesmoke;
   border-radius: 2px;
   color: black;
   width: 40px;
@@ -529,7 +552,7 @@ width: 100%;
   margin-right: 10px;
 }
 .social-icon li a:hover {
-  background: #28a7e9;
+  background: #f6f8f9;
   border-color: transparent;
 }
 /* end social icon */
