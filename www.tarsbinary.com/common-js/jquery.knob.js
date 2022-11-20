@@ -1,6 +1,7 @@
 /**
  * Downward compatible, touchable dial
  *
+ 
  * Version: 1.2.11
  * Requires: jQuery v1.7+
  *
